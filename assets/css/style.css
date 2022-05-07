@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+body{
+    background-color: rgb(25, 25, 76);
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+.principal .foto img{
+    margin-left: 130px;
+    width: 60%;
+    height: 50%;
+}
+.header .logotipo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #EEE5FF;
+    font-weight: 100;
+}
+.logo img{
+    width: 50px;
+    margin-right: 10px;
+}
+.ebook .ebook-titulo p{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-bottom: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #EfE6FF;
+    font-size: 20px;
+}
+.ebook .ebook-titulo h1{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #EfE6FF;
+    font-size: 60px;
+}
+.ebook .ebook-descricao p{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #EfE6FF;
+    font-size: 30px;
+}
+.ebook .ebook-baixar{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-left: 350px;
+    width: 520px;
+    height: 185px;
+    margin-bottom: 100px;
+}
+.ebook .ebook-baixar button{
+    background-color: #ECB035;
+    border: #ECB035;
+    margin-left: 28px;
+    margin-top: 37px;
+    margin-bottom: 24px;
+    width: 260px;
+    height: 43px;
+    padding: 0.3rem;
+    box-shadow: 0px 3px 5px black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.ebook .ebook-baixar p{
+    margin-left: 28px;
+    margin-right: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #1E1E50;
+}
+.container .cadastro{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+.cadastro .visitante{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 55px;
+    margin-bottom: 50px;
+    width: 520px;
+    height: 480px;
+}
+.cadastro .formulario{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 85px;
+    margin-bottom: 50px;
+    width: 520px;
+    height: 480px;
+    background-color: #806EFE;
+    color: #ffffff;
+}
+.visitante h3{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    margin-top: 105px;
+    margin-right: 80px;
+    margin-bottom: 25px;
+    color: #806EFE;
+    font-size: 30px;
+}
+.visitante h4{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.visitante p{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.formulario h4{
+    display: flex;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+.formulario p{
+    display: flex;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.formulario ul li{
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.cadastro .ebook-baixar button{
+    background-color: #ECB035;
+    border: #ECB035;
+    margin-left: 28px;
+    margin-top: 37px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    width: 450px;
+    height: 43px;
+    padding: 0.3rem;
+    box-shadow: 0px 3px 5px black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cadastro .ebook-baixar h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+label{
+    font-size: 15px;
+}
+input{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+@media (min-width:765px) and (max-width:1200px){
+    .principal .foto img{
+        display: none;
+    }
+    .header .logotipo{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 35px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .ebook .ebook-titulo p,
+    .ebook .ebook-titulo h1{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 35px;
+        margin-bottom: 40px;
+        margin-right: 355px;
+    }
+    .ebook .ebook-descricao p{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 35px;
+        margin-bottom: 50px;
+    }
+    .ebook .ebook-baixar{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: #ffffff;
+        margin-left: 35px;
+        width: 520px;
+        height: 185px;
+        margin-bottom: 100px;
+    }
+    .container .cadastro{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cadastro .visitante{
+        margin-left: 50px;
+    }
+}
+@media (min-width:560px) and (max-width:764px){
+    .principal .foto img{
+        display: none;
+    }
+    .header .logotipo{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 35px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .ebook .ebook-titulo p,
+    .ebook .ebook-titulo h1{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 35px;
+        margin-bottom: 40px;
+        margin-right: 75px;
+    }
+    .ebook .ebook-descricao p{
+        display: flex;
+        justify-content: center;
+        margin-left: 35px;
+        margin-bottom: 50px;
+    }
+    .ebook .ebook-baixar{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 100px;
+        background-color: #ffffff;
+        margin-left: 35px;
+        width: 520px;
+        height: 185px;
+    }
+    .container .cadastro{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cadastro .visitante{
+        margin-left: 50px;
+    }
+}
+@media (max-width:559px){
+    .principal .foto img{
+        display: none;
+    }
+    .header .logotipo{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .ebook .ebook-titulo p, 
+    .ebook .ebook-titulo h1{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 35px;
+        margin-bottom: 40px;
+        margin-right: 60px;
+    }
+    .ebook .ebook-descricao p{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-bottom: 50px;
+        margin-right: 30px;
+        text-align: start;
+        font-size: 25px;
+    }
+    .ebook .ebook-baixar{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 100px;
+        background-color: #ffffff;
+        margin-left: 35px;
+        margin-right: 60px;
+        width: 435px;
+        height: 210px;
+    }
+    .container .cadastro{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cadastro .visitante,
+    .cadastro .formulario{
+        margin-top: -10px;
+        width: 420px;
+        height: 480px;
+    }
+    .cadastro .visitante{
+        margin-left: 50px;
+    }
+    .formulario .ebook-baixar button{
+        width: 360px;
+        height: 43px;
+    }
+}
